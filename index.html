@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogul Florenei</title>
+  <style>
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefefe;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .intro img {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .previews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #ffb6c1;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    <header>
+    <div>
+      Abonează-te la noutăți:
+      <input type="email" placeholder="Introdu adresa de email">
+      <button>Subscribe</button>
+    </div>
+  </style>
+</head>
+<body>
+  <header>
+    <div class="subscribe-bar">
+        <label for="email">Abonează-te la noutăți:</label>
+        <input type="email" id="email" placeholder="Introdu adresa de email">
+        <button>Subscribe</button>
+      </div>
+    <h1>Bine ai venit pe Blogul Florenei!</h1>
+    <nav>
+      <a href="index.html">Acasă</a>
+      <a href="reviews.html">Recenzii</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img src="Tani.jpeg" alt="Tani">
+      <img src="Milo&Yara.jpeg" alt="Milo & Yara"
+      <div>
+        <h2>Despre mine</h2>
+        <p>Ma numesc Florena, am 16 ani si imi plac pisicile. In pozele atasate sunt cele trei pisici ale mele, Tani (cel negru), Milo si Yara. In viitor imi doresc sa devin medic, mai exact chirurg pediatru sau neurochirurg deoarece mi se pare foarte fascinant cum functioneaza corpul uman si cum chirurgii pot salva atatea vieti. Ma bucur ca am participat la acest curs si ca am invatat multe lucruri despre cum iti poti crea propriul site.</p>
+        <p>Sustinerea fetelor în tehnologie este importantă pentru că aduce diversitate de gândire si inovație în domenii dominate tradițional de bărbați. Le oferă fetelor șansa să își valorifice creativitatea și să contribuie la soluții tehnologice care reflectă nevoile tuturor, nu doar ale unei singure perspective.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Ultimele articole</h2>
+      <div class="previews">
+        <div class="card">
+          <img src="Greys Anatomy.jpg" alt="Grey's Anatomy">
+          <h3>Grey's Anatomy</h3>
+          <p>Un serial tip medical drama, despre viata personala si profesionala a cinci rezidenti. Este un serial foarte interesant, cu peste 20 de sezoane și multe plot twist-uri. </p>
+        </div>
+        <div class="card">
+          <img src="baking.jpg" alt="Baking">
+          <h3>Hobby-ul preferat</h3>
+          <p>Imi place foarte mult sa gatesc, mai ales dulciuri. Cel mai mult imi place sa gatesc ceva iar apoi sa impart cu prietenii mei, vazandu-i bucurosi.</p>
+        </div>
+        <div class="card">
+          <img src="muffins.jpg" alt="Briose">
+          <h3>Desertul preferat</h3>
+          <p>Desertul meu preferat sunt biosele, deoarece le pot personaliza, adaugad orice inauntrul lor si punand, sau nu, glazura pe deasupra.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Popa Florena</p>
+  </footer>
+</body>
+</html>
